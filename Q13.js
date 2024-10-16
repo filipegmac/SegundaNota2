@@ -1,5 +1,5 @@
 function arrayDeFrutas() {
-    const frutas = ["Banana", "Maçã", "Melancia"]
+    const frutas = ["Banana", "Maçã", "Melão"]
 
     this.novaFruta = function(novafruta){
         frutas.splice(1,1, novafruta)
