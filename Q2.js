@@ -1,9 +1,9 @@
-function somar(numero){
-    let soma = 0;
-    for (let i = 1; i <= numero; i++) {
-        soma += i
+function add(number){
+    let sum = 0;
+    for (let i = 1; i <= number; i++) {
+        sum += i
     }
-    return console.log(soma);
+    return console.log(sum);
 }
 
-somar(5)
+add(5)

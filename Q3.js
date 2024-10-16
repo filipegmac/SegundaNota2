@@ -1,10 +1,10 @@
-function idade(idade){
-    if (idade < 18){
-        return console.log("Menor de idade")
+function Age(age){
+    if (age < 18){
+        return console.log("Underage")
     } else {
-        return console.log("Maior de idade")
+        return console.log("Overage")
     }
 }
 
-idade(17)
-idade(18)
+Age(17)
+Age(18)

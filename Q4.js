@@ -1,10 +1,10 @@
-function fatorial(n){
-    let multiplicador = 1
+function factorial(n){
+    let multiplier = 1
 
     for (let i = 1; i <= n; i++) {
-        multiplicador *= i
+        multiplier *= i
     }
-    return console.log(multiplicador)
+    return console.log(multiplier)
 }
 
-fatorial(5)
+factorial(5)

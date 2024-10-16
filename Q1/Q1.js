@@ -1,19 +1,19 @@
-let num1 = parseInt(prompt("Primeiro número: "))
-let num2 = parseInt(prompt("Segundo número: "))
-let soma = num1 + num2
-alert("Soma: " + soma)
+let num1 = parseInt(prompt("First number: "))
+let num2 = parseInt(prompt("Second number: "))
+let sum = num1 + num2
+alert("Sum: " + sum)
 
 if (num1 > num2){
-    alert(num1 + " É maior que" + num2)
+    alert(num1 + " Is bigger than " + num2)
 }
 else if (num1 === num2) {
-    alert("Os dois números são iguais")
+    alert("Both numbers are equal")
 } else {
-    alert(num2 + " É maior que " + num1)
+    alert(num2 + " Is bigger than " + num1)
 }
 
-if (soma % 2 === 0){
-    alert("A soma é par")
+if (sum % 2 === 0){
+    alert("The sum is even")
 } else {
-    alert("A soma é impar")
+    alert("The sum is odd")
 }
